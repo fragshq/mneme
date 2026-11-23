@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"mneme/query"
-	"mneme/store"
-	"mneme/store/memstore"
-	"mneme/store/storetest"
+	"github.com/fragshq/mneme/query"
+	"github.com/fragshq/mneme/store"
+	"github.com/fragshq/mneme/store/memstore"
+	"github.com/fragshq/mneme/store/storetest"
 )
 
 func TestConformance(t *testing.T) {

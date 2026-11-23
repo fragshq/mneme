@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 
-	"mneme/store"
+	"github.com/fragshq/mneme/store"
 )
 
 func testSequences(t *testing.T, s store.Store) {

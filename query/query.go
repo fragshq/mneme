@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"mneme/errs"
-	"mneme/jsonx"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/jsonx"
 )
 
 // SortField orders results by one field.

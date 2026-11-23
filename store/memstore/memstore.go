@@ -14,9 +14,9 @@ import (
 	"sort"
 	"sync"
 
-	"mneme/query"
-	"mneme/schema"
-	"mneme/store"
+	"github.com/fragshq/mneme/query"
+	"github.com/fragshq/mneme/schema"
+	"github.com/fragshq/mneme/store"
 )
 
 // Store implements store.SchemaStore, store.RecordStore and

@@ -17,8 +17,8 @@ package idgen
 import (
 	"encoding/json"
 
-	"mneme/errs"
-	"mneme/jsonx"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/jsonx"
 )
 
 // Spec is the JSON-serialisable description of an ID strategy.

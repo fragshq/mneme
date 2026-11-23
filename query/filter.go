@@ -26,9 +26,9 @@ import (
 	"strings"
 	"time"
 
-	"mneme/errs"
-	"mneme/jsonptr"
-	"mneme/jsonx"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/jsonptr"
+	"github.com/fragshq/mneme/jsonx"
 )
 
 // Op is a filter operator.

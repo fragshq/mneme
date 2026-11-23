@@ -3,7 +3,7 @@ package store
 import (
 	"sort"
 
-	"mneme/query"
+	"github.com/fragshq/mneme/query"
 )
 
 // CountLabels computes ListLabels' result: the distinct labels of the docs

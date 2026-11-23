@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"mneme/errs"
+	"github.com/fragshq/mneme/errs"
 )
 
 // Issue is one schema violation at an instance location (a JSON pointer).

@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"testing"
 
-	"mneme"
-	"mneme/schema"
+	"github.com/fragshq/mneme"
+	"github.com/fragshq/mneme/schema"
 )
 
 func TestRecordTypeQuota(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"mneme/jsonptr"
+	"github.com/fragshq/mneme/jsonptr"
 )
 
 func TestGetAndEscapes(t *testing.T) {

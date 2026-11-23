@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"mneme/errs"
-	"mneme/idgen"
-	"mneme/schema"
-	"mneme/store"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/idgen"
+	"github.com/fragshq/mneme/schema"
+	"github.com/fragshq/mneme/store"
 )
 
 // Re-exported sentinel errors; test with errors.Is.

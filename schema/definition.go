@@ -15,8 +15,8 @@ import (
 
 	"github.com/google/jsonschema-go/jsonschema"
 
-	"mneme/errs"
-	"mneme/idgen"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/idgen"
 )
 
 // JSONSchema is the schema type used by Mneme.

@@ -8,9 +8,9 @@ import (
 
 	"github.com/google/jsonschema-go/jsonschema"
 
-	"mneme/errs"
-	"mneme/idgen"
-	"mneme/schema"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/idgen"
+	"github.com/fragshq/mneme/schema"
 )
 
 func riskDef() schema.Definition {

@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"mneme"
-	"mneme/errs"
-	"mneme/schema"
-	"mneme/script"
-	"mneme/store/memstore"
+	"github.com/fragshq/mneme"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/schema"
+	"github.com/fragshq/mneme/script"
+	"github.com/fragshq/mneme/store/memstore"
 )
 
 // fixture: 5 customers and 12 orders, with a page size of 2 so list must

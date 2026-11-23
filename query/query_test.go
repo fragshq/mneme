@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"mneme/errs"
-	"mneme/query"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/query"
 )
 
 func TestFilterJSONRoundTrip(t *testing.T) {

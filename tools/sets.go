@@ -3,8 +3,8 @@ package tools
 import (
 	"github.com/google/jsonschema-go/jsonschema"
 
-	"mneme"
-	"mneme/script"
+	"github.com/fragshq/mneme"
+	"github.com/fragshq/mneme/script"
 )
 
 // Design returns the tools to design record types: list_record_types,

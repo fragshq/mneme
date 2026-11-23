@@ -7,12 +7,12 @@ import (
 	"errors"
 	"fmt"
 
-	"mneme/errs"
-	"mneme/idgen"
-	"mneme/jsonx"
-	"mneme/query"
-	"mneme/schema"
-	"mneme/store"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/idgen"
+	"github.com/fragshq/mneme/jsonx"
+	"github.com/fragshq/mneme/query"
+	"github.com/fragshq/mneme/schema"
+	"github.com/fragshq/mneme/store"
 )
 
 // Insert validates data against the record type's latest schema version, generates

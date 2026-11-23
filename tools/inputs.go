@@ -1,10 +1,10 @@
 package tools
 
 import (
-	"mneme"
-	"mneme/idgen"
-	"mneme/query"
-	"mneme/schema"
+	"github.com/fragshq/mneme"
+	"github.com/fragshq/mneme/idgen"
+	"github.com/fragshq/mneme/query"
+	"github.com/fragshq/mneme/schema"
 )
 
 // ListRecordTypesInput is the input of list_record_types.

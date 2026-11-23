@@ -3,8 +3,8 @@ package store
 import (
 	"encoding/json"
 
-	"mneme/jsonptr"
-	"mneme/query"
+	"github.com/fragshq/mneme/jsonptr"
+	"github.com/fragshq/mneme/query"
 )
 
 // Doc adapts a Record to query.Doc so stores evaluating queries in Go can use

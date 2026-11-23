@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
-	"mneme"
-	"mneme/errs"
-	"mneme/script"
-	"mneme/store"
-	"mneme/store/memstore"
-	"mneme/tools"
+	"github.com/fragshq/mneme"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/script"
+	"github.com/fragshq/mneme/store"
+	"github.com/fragshq/mneme/store/memstore"
+	"github.com/fragshq/mneme/tools"
 )
 
 func newTools(t *testing.T) []tools.Tool {

@@ -4,7 +4,7 @@ import (
 	"slices"
 	"unicode/utf8"
 
-	"mneme/errs"
+	"github.com/fragshq/mneme/errs"
 )
 
 // Label limits.

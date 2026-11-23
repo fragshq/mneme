@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"mneme"
-	"mneme/query"
-	"mneme/script"
+	"github.com/fragshq/mneme"
+	"github.com/fragshq/mneme/query"
+	"github.com/fragshq/mneme/script"
 )
 
 // handlers implements every tool on an engine. Each method takes the

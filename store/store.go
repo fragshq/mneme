@@ -11,10 +11,10 @@ import (
 	"encoding/json"
 	"time"
 
-	"mneme/errs"
-	"mneme/idgen"
-	"mneme/query"
-	"mneme/schema"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/idgen"
+	"github.com/fragshq/mneme/query"
+	"github.com/fragshq/mneme/schema"
 )
 
 // Sentinel errors stores must return (possibly wrapped).

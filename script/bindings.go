@@ -8,10 +8,10 @@ import (
 
 	"github.com/dop251/goja"
 
-	"mneme"
-	"mneme/errs"
-	"mneme/jsonx"
-	"mneme/query"
+	"github.com/fragshq/mneme"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/jsonx"
+	"github.com/fragshq/mneme/query"
 )
 
 // install defines the globals a script may use.

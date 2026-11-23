@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"mneme/query"
-	"mneme/store"
+	"github.com/fragshq/mneme/query"
+	"github.com/fragshq/mneme/store"
 )
 
 func testLabels(t *testing.T, s store.Store) {

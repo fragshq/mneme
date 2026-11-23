@@ -8,12 +8,12 @@ import (
 	"strings"
 	"testing"
 
-	"mneme"
-	"mneme/idgen"
-	"mneme/query"
-	"mneme/schema"
-	"mneme/store"
-	"mneme/store/memstore"
+	"github.com/fragshq/mneme"
+	"github.com/fragshq/mneme/idgen"
+	"github.com/fragshq/mneme/query"
+	"github.com/fragshq/mneme/schema"
+	"github.com/fragshq/mneme/store"
+	"github.com/fragshq/mneme/store/memstore"
 )
 
 func newEngine(t *testing.T, mutate func(c *mneme.Config)) (*mneme.Engine, *memstore.Store) {

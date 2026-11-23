@@ -12,9 +12,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"mneme/errs"
-	"mneme/jsonptr"
-	"mneme/jsonx"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/jsonptr"
+	"github.com/fragshq/mneme/jsonx"
 )
 
 // stringConfig decodes a config that is a JSON string; null or empty leaves

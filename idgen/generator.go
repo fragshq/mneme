@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"mneme/errs"
+	"github.com/fragshq/mneme/errs"
 )
 
 // SequenceProvider hands out progressive counter values. It is implemented by

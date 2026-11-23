@@ -57,7 +57,7 @@ store/memstore/    in-memory implementation — THE reference behaviour
 store/storetest/   conformance suite every store must pass (storetest.Run)
 ```
 
-The module path is currently the placeholder `mneme`. The user has not chosen the final path yet, so don't change it unless asked.
+The module path is `github.com/fragshq/mneme`, hosted at https://github.com/fragshq/mneme.
 
 ## Core types and flow
 
@@ -223,7 +223,7 @@ This is the reference implementation, protected by an RWMutex. It deep-copies de
 - The plugin `mneme-memory-storage` wraps memstore, so improvements belong here and reach both.
 
 ### Plugins (`../mneme-plugins/`)
-Storage backends that live outside this repo, each in its own Go module with `replace mneme => ../../mneme`.
+Storage backends that live outside this repo, each in its own Go module with `replace github.com/fragshq/mneme => ../../mneme`.
 
 - **`mneme-memory-storage`** (package `memorystore`):
   - Nothing is persisted. Each tenant gets its own core `memstore.Store`, so its semantics are the reference by construction. Don't re-implement query logic there.
@@ -267,7 +267,7 @@ The user's Go style rules also apply globally; follow them in addition to these:
 - **Storage agnostic.** The core must never depend on, mention or assume a specific database. Keep backends in `../mneme-plugins/<name>` as separate modules. If a plugin uses Postgres, it uses pgx v5 directly (`pgxpool`, `$n` parameters), **not** Gorm: storage plugins run only hand-written SQL, and Gorm's `?` placeholders forced workarounds (the user approved this exception to their Gorm rule).
 - **JSON helpers:** for strict decoding, null checks, "string or object" configs and JSON equality, use `jsonx`. Don't hand-roll a `json.Decoder` with `DisallowUnknownFields`.
 - **Errors:** every caller-input problem must satisfy `errors.Is(err, errs.ErrInvalid)`: build it with `errs.Invalidf(format, args...)`, never `fmt.Errorf("%w: ...", errs.ErrInvalid, ...)`. Other sentinels are wrapped with `%w`. `schema.ValidationError` implements `Is` for this.
-- **Imports:** standard library, then third-party, then `mneme/...`, as separate groups.
+- **Imports:** standard library, then third-party, then `github.com/fragshq/mneme/...`, as separate groups.
 - **Docs:** keep godoc comments on all exported identifiers. Package-level comments document semantics (see `query` and `idgen`).
 - **Formatting:** run `gofmt -w .` before finishing. Formatting is not enforced by a hook.
 - **Tests:** a black-box `_test` package per package. Table-driven where it fits.
@@ -284,5 +284,4 @@ The user's Go style rules also apply globally; follow them in addition to these:
 
 ## Not set up yet
 
-- No git repository, lint config (`golangci-lint`) or CI. Ask where it will be hosted before adding them.
-- The final module path.
+- No lint config (`golangci-lint`) or CI. The repo is on GitHub (`fragshq/mneme`); ask before adding them.

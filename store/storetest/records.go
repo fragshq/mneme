@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"mneme/jsonx"
-	"mneme/query"
-	"mneme/store"
+	"github.com/fragshq/mneme/jsonx"
+	"github.com/fragshq/mneme/query"
+	"github.com/fragshq/mneme/store"
 )
 
 // record builds a stored record for the RecordStore tests.

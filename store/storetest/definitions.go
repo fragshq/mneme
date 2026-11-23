@@ -9,9 +9,9 @@ import (
 
 	"github.com/google/jsonschema-go/jsonschema"
 
-	"mneme/idgen"
-	"mneme/schema"
-	"mneme/store"
+	"github.com/fragshq/mneme/idgen"
+	"github.com/fragshq/mneme/schema"
+	"github.com/fragshq/mneme/store"
 )
 
 func testDefinitions(t *testing.T, s store.Store) {

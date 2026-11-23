@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"mneme"
-	"mneme/query"
-	"mneme/schema"
-	"mneme/store"
+	"github.com/fragshq/mneme"
+	"github.com/fragshq/mneme/query"
+	"github.com/fragshq/mneme/schema"
+	"github.com/fragshq/mneme/store"
 )
 
 // paginationFixture inserts 23 "row" records with repeating values, so sorts

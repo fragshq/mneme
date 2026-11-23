@@ -52,10 +52,10 @@ import (
 	"github.com/dop251/goja/ast"
 	"github.com/dop251/goja/parser"
 
-	"mneme"
-	"mneme/errs"
-	"mneme/query"
-	"mneme/schema"
+	"github.com/fragshq/mneme"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/query"
+	"github.com/fragshq/mneme/schema"
 )
 
 // Errors returned by Run. Both match errs.ErrInvalid.

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"mneme/errs"
-	"mneme/query"
-	"mneme/store"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/query"
+	"github.com/fragshq/mneme/store"
 )
 
 type tenantKey struct{}

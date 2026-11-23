@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"testing"
 
-	"mneme"
-	"mneme/idgen"
-	"mneme/query"
-	"mneme/schema"
-	"mneme/store"
+	"github.com/fragshq/mneme"
+	"github.com/fragshq/mneme/idgen"
+	"github.com/fragshq/mneme/query"
+	"github.com/fragshq/mneme/schema"
+	"github.com/fragshq/mneme/store"
 )
 
 // filterFixture defines "item" v1 and v2 and inserts records across both.

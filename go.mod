@@ -1,4 +1,4 @@
-module mneme
+module github.com/fragshq/mneme
 
 go 1.26.0
 

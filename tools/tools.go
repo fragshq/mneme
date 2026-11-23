@@ -24,10 +24,10 @@ import (
 
 	"github.com/google/jsonschema-go/jsonschema"
 
-	"mneme"
-	"mneme/errs"
-	"mneme/jsonx"
-	"mneme/script"
+	"github.com/fragshq/mneme"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/jsonx"
+	"github.com/fragshq/mneme/script"
 )
 
 // Tool is one operation.

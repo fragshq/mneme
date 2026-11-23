@@ -1,6 +1,6 @@
 package store
 
-import "mneme/query"
+import "github.com/fragshq/mneme/query"
 
 // The helpers below evaluate queries in Go with the reference semantics, for
 // stores that cannot evaluate filters natively (in-memory maps, key-value

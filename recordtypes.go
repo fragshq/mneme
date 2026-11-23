@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"mneme/errs"
-	"mneme/idgen"
-	"mneme/schema"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/idgen"
+	"github.com/fragshq/mneme/schema"
 )
 
 // Define stores a new version of a record type, creating the type on first

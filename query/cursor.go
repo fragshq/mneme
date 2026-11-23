@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"mneme/errs"
+	"github.com/fragshq/mneme/errs"
 )
 
 // Cursor is the decoded form of a keyset pagination cursor: the sort key of

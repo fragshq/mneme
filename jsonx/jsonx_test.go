@@ -3,7 +3,7 @@ package jsonx_test
 import (
 	"testing"
 
-	"mneme/jsonx"
+	"github.com/fragshq/mneme/jsonx"
 )
 
 func TestIsNullAndKind(t *testing.T) {

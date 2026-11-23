@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"mneme"
-	"mneme/idgen"
-	"mneme/jsonx"
-	"mneme/query"
-	"mneme/schema"
-	"mneme/store"
+	"github.com/fragshq/mneme"
+	"github.com/fragshq/mneme/idgen"
+	"github.com/fragshq/mneme/jsonx"
+	"github.com/fragshq/mneme/query"
+	"github.com/fragshq/mneme/schema"
+	"github.com/fragshq/mneme/store"
 )
 
 // testEndToEnd drives the engine through a record type's life: two schema

@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"mneme/errs"
-	"mneme/idgen"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/idgen"
 )
 
 type counter map[string]int64

@@ -17,10 +17,10 @@ import (
 	"testing"
 	"time"
 
-	"mneme"
-	"mneme/query"
-	"mneme/schema"
-	"mneme/store"
+	"github.com/fragshq/mneme"
+	"github.com/fragshq/mneme/query"
+	"github.com/fragshq/mneme/schema"
+	"github.com/fragshq/mneme/store"
 )
 
 // Factory returns a fresh, empty store for one subtest.

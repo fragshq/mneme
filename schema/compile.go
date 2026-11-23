@@ -11,8 +11,8 @@ import (
 
 	validator "github.com/santhosh-tekuri/jsonschema/v6"
 
-	"mneme/errs"
-	"mneme/jsonptr"
+	"github.com/fragshq/mneme/errs"
+	"github.com/fragshq/mneme/jsonptr"
 )
 
 // Compiled is a Definition ready to validate records.

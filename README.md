@@ -2,6 +2,10 @@
 
 A Go library for defining **versioned data structures** with JSON Schema, storing records that conform to them, and querying those records. **The application owns storage.**
 
+```sh
+go get github.com/fragshq/mneme
+```
+
 ```go
 mem := memstore.New() // or your own implementation of the store interfaces
 eng, _ := mneme.New(mneme.Config{Schemas: mem, Records: mem, Sequences: mem})
